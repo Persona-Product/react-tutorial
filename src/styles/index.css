@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #282c34;
+	background-color: #e9faff;
+
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/* ------------------------------------- */
+.header {
+	position: fixed;
+	top: 0px;
+	z-index: 50px;
+	width: 100vw;
+	background-color: #282c34;
+}
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100px;
+}
+.header-title {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.header-title h1 {
+	color: #61dafb;
+	line-height: 0;
+	font-size: 1.25rem;
+}
+.react-logo {
+	height: 3.5vmin;
+	pointer-events: none;
+}
+
+.navigation {
+	display: flex;
+	gap: 20px;
+}
+.navigation-button-group {
+	display: flex;
+	flex-direction: column;
+}
+.navigation-button {
+	padding: 20px 10px;
+	font-size: 1.2rem;
+	color: #fff;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.navigation-active-button {
+	color: #61dafb;
+	border-bottom: 3px solid #61dafb;
+}
+
+/* ------------------------------------- */
+.main-content {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 200px;
+	min-height: 100vh;
+}
+.main-content h1 {
+	font-size: 3rem;
+	text-decoration: underline #61dafb;
+}
+.main-content p {
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.main-api-content {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 200px;
+	min-height: 100vh;
+}
+.main-api-content h1 {
+	text-decoration: underline #61dafb;
+}
+.main-api-content p {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.progress-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* ------------------------------------- */
+.footer {
+	position: fixed;
+	z-index: 50px;
+	bottom: 0px;
+	height: 50px;
+	width: 100vw;
+	text-align: center;
+	background-color: #61dafb;
+}
+
+/* ------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+	.react-logo {
+		animation: react-logo-spin infinite 20s linear;
+	}
+}
+
+@keyframes react-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* ここからどうする？？散々書いたけどここから任せる笑 */
