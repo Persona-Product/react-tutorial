@@ -3,8 +3,7 @@ import logo from "../assets/logo.svg";
 import { Navigation } from "./Navigation";
 
 export const Header = (props) => {
-	const path = window.location.pathname;
-
+  const path = window.location.pathname;
 	return (
 		<header className="header">
 			<div className="header-container">
@@ -16,8 +15,8 @@ export const Header = (props) => {
 					</div>
 				</a>
 
-				<Navigation {...props} />
-			</div>
-		</header>
-	);
+        <Navigation {...props} />
+      </div>
+    </header>
+  );
 };
