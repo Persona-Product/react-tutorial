@@ -5,6 +5,7 @@ export const Progress = () => {
 	return (
 		<div className="progress-content">
 			<CircularProgress />
+			<CircularProgress />
 		</div>
 	);
 };
