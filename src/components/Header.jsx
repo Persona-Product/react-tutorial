@@ -5,16 +5,15 @@ import { Navigation } from "./Navigation";
 export const Header = (props) => {
   const path = window.location.pathname;
 
-  return (
-    <header className="header">
-      <div className="header-container">
-        <a href={path}>
-          <div className="header-title">
-            <img src={logo} className="react-logo" alt="logo" />
-            <h1>磯村優大</h1>
-          </div>
-        </a>
-
+	return (
+		<header className="header">
+			<div className="header-container">
+				<a href={path}>
+					<div className="header-title">
+						<img src={logo} className="react-logo" alt="logo" />
+						<h1>宮原将太</h1>
+					</div>
+				</a>
         <Navigation {...props} />
       </div>
     </header>
