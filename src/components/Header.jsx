@@ -12,6 +12,7 @@ export const Header = (props) => {
 					<div className="header-title">
 						<img src={logo} className="react-logo" alt="logo" />
 						<h1>河原</h1>
+						<h1>河原</h1>
 					</div>
 				</a>
 
