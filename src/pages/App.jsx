@@ -5,6 +5,7 @@ import { DATA } from "../constants/data";
 export default function App() {
 	const [activeIndex, setActiveIndex] = useState(0);
 
+	// komenntoout
 	console.info(activeIndex)
 
 	const handleNavigate = useCallback((index) => {
