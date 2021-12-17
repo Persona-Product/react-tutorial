@@ -5,6 +5,8 @@ import { DATA } from "../constants/data";
 export default function App() {
 	const [activeIndex, setActiveIndex] = useState(0);
 
+	console.info(activeIndex)
+
 	const handleNavigate = useCallback((index) => {
 		setActiveIndex((_) => index);
 	}, []);
